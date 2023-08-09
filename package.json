@@ -1,0 +1,37 @@
+{
+  "name": "sendhtmlemail",
+  "version": "1.0.0",
+  "description": "Send HTML emails from a NextJS-powered web frontend",
+  "scripts": {
+    "dev": "node ./node_modules/next/dist/bin/next dev",
+    "build": "node ./node_modules/next/dist/bin/next build",
+    "start": "node ./node_modules/next/dist/bin/next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "backupbrain@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@hookform/resolvers": "^3.2.0",
+    "@radix-ui/react-icons": "^1.3.0",
+    "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@types/react-dropzone": "^5.1.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "next": "^13.4.13",
+    "nodemailer": "^6.9.4",
+    "react-dropzone": "^14.2.3",
+    "react-hook-form": "^7.45.4",
+    "tailwind-merge": "^1.14.0",
+    "tailwindcss-animate": "^1.0.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.19",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3"
+  }
+}
